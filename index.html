@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CRUD OPERATION</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="productCode">product code</label>
+                        <input type="text" name="productCode" id="productCode">
+                    </div>
+                    <div>
+                        <label for="product">product name</label>
+                        <input type="text" name="product" id="product">
+                    </div>
+                    <div>
+                        <label for="perPrice">price</label>
+                        <input type="number" name="perPrice" id="perPrice">
+                    </div>
+                    <div>
+                        <label for="Qty">Qty</label>
+                        <input type="number" name="Qty" id="Qty">
+                    </div>
+                    <div class="form_action--button">
+                        <input type="submit" value="submit">
+                        <input type="reset" value="reset">
+                    </div>
+                </form>
+                <td>
+                    <table class="list" id="storelist">
+                        <thead>
+                            <tr>
+                            <th>product code  </th>
+                            <th>  product name </th>
+                            <th>price </th>
+                            <th>Qty </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>  
+                </td>
+            </td>
+    </table>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+body {
+    background-image: url(black.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 65%;
+    height: 50%;
+    margin-left: 184px;
+}
+
+div{
+    
+    background-image: linear-gradient(rgb(238, 248, 97),rgb(105, 7, 109));
+    opacity: 80%;
+   
+    
+}
+
+
+h2 {
+    
+    color: rgb(52, 33, 198);
+    text-align: center;
+    text-decoration: solid;
+    font-size: 34px;
+    
+    text-shadow: 4px 4px 4px rgb(240, 73, 129);
+
+}
+
+p {
+    color: rgb(2, 3, 3);
+    text-align: center;
+    text-decoration: solid;
+    font-size: 25px;
+}
+
+h3 {
+    color: rgb(199, 23, 32);
+    text-align: center;;
+    text-decoration: solid;
+    font-size: 28px;
+    
+    
+
+
+}
+
+table {
+
+    color: rgb(18, 19, 20);
+    width: 81%;
+    text-decoration: solid;
+    font-size: 18px;
+    margin-left: 10%;
+    border: 3px solid rgb(243, 28, 4);
+    
+}
+
+b {
+    background-color: rgb(4, 202, 237);
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: solid;
+    font-size: 18px;
+    margin-bottom: 15px;
+    
+
+}
+input[type="text"],
+input[type="date"],
+input[type="tel"] {
+    width: 91%;
+    padding: 10px  10px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 1px solid rgb(13, 22, 22);
+    border-radius: 4px;
+}
+
+
+
+input[type="submit"],
+input[type="reset"] {
+    background: #5acbea;
+    padding: 6px 12px;
+    margin: 12px 0 12px;
+    display: inline-block;
+    border: 2px solid black; 
+    border-radius: 30px;
+    font: size 2rem;
+    cursor: pointer;
+    outline: none;
+    
+}
+
+input[type="submit"]:hover {
+    background: rgb(83, 231, 241);
+}
+
+input[type="reset"]:hover {
+    background: rgb(83, 231, 241);
+}
+
+button {
+    background: #20a3bb;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font: size 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background: rgb(83, 231, 24)
+}
+
+img {
+    width: 140px;
+    height: 140px;
+    margin-left: 81%;
+    margin-top: 5%;
+    border: 2px solid black;
+    
+}
+
+
+
+    
